@@ -6,3 +6,18 @@
 
 .socseti{font-family: fontawesome;
 }
+
+body {
+	background: #bdbebf;
+	color:#fff;
+	
+}
+header a {
+	text-decoration: none;
+	color:#fff;
+	
+}
+header{
+	
+	background: #1c7bad;
+}
