@@ -16,7 +16,7 @@ body {
 	margin: 0;
 	background: #bdbebf;
 	color:#fff;
-	
+	position: relative;
 }
 
 li{
@@ -31,18 +31,25 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+
 header{
+	position: relative;
 	padding-bottom: 10px;
 	background: #1c7bad;
+	opacity: 0.97;
 }
 
 header ul li ,.socseti li{
 	display: inline;
 }
 
-.logo{
-	position: relative;
+.lent{
+	z-index: 1;
+	margin-top: -114px;
+
 }
+
 
 .logo a{
 	margin-top: -30px;
@@ -53,7 +60,7 @@ header ul li ,.socseti li{
 
 
 .telek{
-	
+	color: #ed9a00;
 	margin-left: 60px;
 	font-size: 68px;
 	
@@ -64,10 +71,14 @@ header ul li ,.socseti li{
 }
 
 .socseti{
+
 	font-size: 16px;
     padding-top: 20px;
     padding-left: 60px;
 }
+
+
+
 nav{
 	font-size: 20px;
 	padding-top: 40px;
@@ -75,6 +86,42 @@ nav{
 nav li{
 	padding-right: 40px;
 }
-.categori{
+
+.line {
 	
+	background:#ed9a00;
+	height: 5px; 
+}
+.categori{
+	margin-top: -4px;
+	z-index: 1;
+	
+}	
+
+.film{
+	color: #000;
+	margin-top: 14px;
+	background: #d2d2d2;
+	border-radius: 5px;
+}
+
+.filmImg {
+	display: inline-block;
+	
+	height: 240px;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+
+}
+
+.filmImg img{
+	width: 165px;
+}
+.btn-danger{
+	background-color: #ed9a00;
+	border-color: #ed9a00;
+}
+
+.btn-xs{
+	border-radius: 0 0 7px 7px;
 }
