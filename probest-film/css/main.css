@@ -37,7 +37,7 @@ a:hover {
 header{
 	position: relative;
 	padding-bottom: 10px;
-	background: #1c7bad;
+	background: #1C7BAD;
 	opacity: 0.97;
 	z-index: 3;
 }
@@ -91,26 +91,50 @@ nav{
 nav li{
 	padding-right: 40px;
 }
-.dropdown-menu{
-	padding: 0px 0px;
-    font-size: 12px;
-    margin: 11px -11px 0px;
+.Navigation {
+  height: 10px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
 }
-
-.dropdown-menu li{
-	padding: 1;
-	margin: 0;
-	min-width: 134px;
+.Navigation li {
+  height: auto;
+  width: 140px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: 13px "Bonveno", "Century Gothic";
+  padding: 0;
+  margin: 0;
+  background-color: #217dad;
+  border: 1px solid #286090;
+  box-shadow: 0 1px 0 #333 inset, 0 1px 3px rgba(0, 0, 0, .1);
+  border-radius: 3px;
+  margin-left: 10px;
 }
-.dropdown-menu li a{
-	    padding: 0px 13px;
-	    margin: 0;
-
+.Navigation a {
+  padding: 6px;
+  text-decoration: none;
+  
+  text-shadow: 0 1px #333;
+  display: block;
 }
-
-.dropdown-menu>li>a:hover{
-	background-color: #1c7bad;
-
+.Navigation li ul {
+  display: none;
+  height: auto;
+  margin-left: -11px;
+  padding: 0;
+}
+.Navigation li:hover ul {
+  display: block;
+}
+.navbar li ul li {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+.Navigation li:hover,
+a:hover {
+  background: #286090;
 }
 
 .line {
@@ -149,20 +173,21 @@ nav li{
 	 
 	font-size: 70px;
 	z-index: 30;
-	margin-top: -285px;
+	margin-top: -296px;
 	
 	
 }
 .filmHov a{
 	display: inline-block;
-	height: 270px;
+	height: 286px;
 	width: 165px;
 	color: #ed9a00;
 	padding: 50px;
 	opacity: 0;	
+	border-radius: 5px;
 }
 .filmHov a:hover{
-	opacity: 1;
+	opacity: 0.5;
 
 }
 .filmImg {
