@@ -7,7 +7,7 @@
 	font-family: adler;
 	src: url (fonts/adler.ttf);
 }
-.socseti,.telek {
+.socseti,.telek, .filmHov, .socsetiF {
 	font-family: fontawesome;
 }
 
@@ -30,6 +30,7 @@ a {
 
 a:hover {
 	text-decoration: none;
+	color:#fff;
 }
 
 
@@ -38,15 +39,16 @@ header{
 	padding-bottom: 10px;
 	background: #1c7bad;
 	opacity: 0.97;
+	z-index: 3;
 }
 
-header ul li ,.socseti li{
+header ul li ,.socseti li, .socsetiF li{
 	display: inline;
 }
 
 .lent{
 	z-index: 1;
-	margin-top: -114px;
+	margin-top: -128px;
 
 }
 
@@ -58,7 +60,10 @@ header ul li ,.socseti li{
 	
 }
 
-
+.logo a:hover, .socseti a:hover, 
+.top a:hover, .bot a:hover, .vop:hover{
+	color: #ed9a00;
+}
 .telek{
 	color: #ed9a00;
 	margin-left: 60px;
@@ -73,18 +78,39 @@ header ul li ,.socseti li{
 .socseti{
 
 	font-size: 16px;
-    padding-top: 20px;
-    padding-left: 60px;
+   
+    padding-left: 138px;
 }
 
 
 
 nav{
 	font-size: 20px;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 nav li{
 	padding-right: 40px;
+}
+.dropdown-menu{
+	padding: 0px 0px;
+    font-size: 12px;
+    margin: 11px -11px 0px;
+}
+
+.dropdown-menu li{
+	padding: 1;
+	margin: 0;
+	min-width: 134px;
+}
+.dropdown-menu li a{
+	    padding: 0px 13px;
+	    margin: 0;
+
+}
+
+.dropdown-menu>li>a:hover{
+	background-color: #1c7bad;
+
 }
 
 .line {
@@ -92,36 +118,104 @@ nav li{
 	background:#ed9a00;
 	height: 5px; 
 }
+.line2{
+	background:#ed9a00;
+	height: 5px; 
+	margin-top: 32px;
+}
 .categori{
 	margin-top: -4px;
 	z-index: 1;
 	
 }	
 
+
+
 .film{
+	
+	
 	color: #000;
-	margin-top: 14px;
 	background: #d2d2d2;
 	border-radius: 5px;
-}
+	margin-top: 10px;
+	margin-bottom: 10px;
+	z-index: 1;
+	height:  286px;
+	
 
+}
+.filmHov {
+
+	 
+	font-size: 70px;
+	z-index: 30;
+	margin-top: -285px;
+	
+	
+}
+.filmHov a{
+	display: inline-block;
+	height: 270px;
+	width: 165px;
+	color: #ed9a00;
+	padding: 50px;
+	opacity: 0;	
+}
+.filmHov a:hover{
+	opacity: 1;
+
+}
 .filmImg {
 	display: inline-block;
-	
 	height: 240px;
 	overflow: hidden;
 	border-radius: 5px 5px 0 0;
+	z-index: 3;
 
 }
 
 .filmImg img{
 	width: 165px;
 }
-.btn-danger{
+.film ul li{
+	font-size: 12px;
+	margin-left: -30px;
+}
+footer{
+	padding: 10px;
+	background: #1c7bad;
+	opacity: 0.97;
+	margin-top: 32px;
+}
+.socsetiF .top, .bot{
+	font-size: 24px;
+}
+
+.vop{
+	font-size: 50px;
+}
+	
+.text{
+	font-size: 11px;
+	padding-top: 5px;
+}
+.btn-warning{
 	background-color: #ed9a00;
 	border-color: #ed9a00;
 }
 
+
+
+.btn-primary{
+	padding: 0;
+	background-color:  #1c7bad;
+	border-color:  #1c7bad;
+}
+
 .btn-xs{
 	border-radius: 0 0 7px 7px;
+}
+ 
+.btn-lg{
+	padding: 4px 10px;
 }
