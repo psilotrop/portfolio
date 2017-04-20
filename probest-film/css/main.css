@@ -23,15 +23,12 @@ li{
 	list-style: none;
 }
 
-a {
+a, a:hover, a:link, a:visited, a:active{
 	text-decoration: none;
 	color:#fff;	
 }
 
-a:hover {
-	text-decoration: none;
-	color:#fff;
-}
+
 
 
 header{
@@ -47,9 +44,14 @@ header ul li ,.socseti li, .socsetiF li{
 }
 
 .lent{
+
 	z-index: 1;
 	margin-top: -128px;
 
+}
+.lent img {
+	width: 100%;
+	height: 155px;
 }
 
 
@@ -62,12 +64,13 @@ header ul li ,.socseti li, .socsetiF li{
 
 .logo a:hover, .socseti a:hover, 
 .top a:hover, .bot a:hover, .vop:hover{
+	text-decoration: none;
 	color: #ed9a00;
 }
 .telek{
 	color: #ed9a00;
 	margin-left: 60px;
-	font-size: 68px;
+	font-size: 71px;
 	
 }
 .pro{
@@ -85,12 +88,10 @@ header ul li ,.socseti li, .socsetiF li{
 
 
 nav{
-	font-size: 20px;
+	
 	padding-top: 30px;
 }
-nav li{
-	padding-right: 40px;
-}
+
 .Navigation {
   height: 10px;
   padding: 0;
@@ -133,7 +134,7 @@ nav li{
   border: 1px solid #ccc;
 }
 .Navigation li:hover,
-a:hover {
+.Navigation a:hover {
   background: #286090;
 }
 
@@ -187,7 +188,8 @@ a:hover {
 	border-radius: 5px;
 }
 .filmHov a:hover{
-	opacity: 0.5;
+	background-color: rgba(33, 125, 173, 0.59);
+	opacity: 0.9;
 
 }
 .filmImg {
