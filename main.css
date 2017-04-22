@@ -1,0 +1,179 @@
+@font-face {
+  font-family: fontawesome;
+  src: url (fonts/fontawesome-webfont_0.ttf);
+}
+
+@font-face {
+  font-family: bodo;
+  src: url(pro100film/fonts/BodoniC-BookCond.otf);
+
+}
+
+@font-face {
+  font-family: broken;
+  src: url(pro100film/fonts/BROKEN15.TTF);
+}
+
+body{
+    color: #FFF;
+    padding: 0;
+    margin: 0;   
+    background-image: url(img/bg.png);
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+.bgShadow{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.37);
+    
+   
+}
+.leftMen{
+    padding: 0 20px;
+    width: 106px;
+    min-height: 100vh;
+    background-color: #494949;
+    
+}
+
+.nav{
+    font-family: bodo;
+    padding-top: 20px;
+    height: 48vh;
+}
+
+/* ВНЕШНИЙ БЛОК */
+#panelWeb, #panelVer, #panelKon{
+    position: fixed;/* положение */    
+    left: 30px; /* отступ слева */
+    
+    width: 98px; /* ширина блока */
+    letter-spacing: 2px;
+   
+    color: #fff; /* цвет текста */
+    text-align: left; /* выравнивание текста по центру */
+    padding: 10px; /* отступы от границ внутри блока */
+
+    -webkit-transition-duration: 2.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 2.3s;
+    -o-transition-duration: 2.3s;
+    transition-duration: 2.3s;
+
+    -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius:  5px 0 0 5px ;
+    }
+
+    #panelWeb{
+        top:10vh;
+    }
+
+    #panelVer{
+        top: 25vh;
+    }
+
+    #panelKon{
+        top: 40vh;
+    }
+
+
+/* СКРЫТЫЙ БЛОК */
+#hidden_panel {
+    position: fixed; /* положение */
+    top: 0px;  /*отступ сверху */
+    right:  -110%; /* отступ слева */
+    color: #000; /* цвет текста */
+    width: 88%; /* ширина блока */
+    height: 100%; /* высота блока */
+    padding: 10px; /* отступы от границ внутри блока */
+    text-align: left; /* выравнивание текста */
+
+    -webkit-transition-duration: 0.9s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+
+   
+    }
+
+   #skype, #vk, #tel{
+    font-family: fontawesome;
+    font-size: 30px; 
+    position: fixed; /* положение */
+    color: #fff; /* цвет текста */
+    width: 300px; /* ширина блока */
+    height: 50px; /* высота блока */
+    text-align: left; /* выравнивание текста */
+
+    -webkit-transition-duration: 0.9s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    text-decoration: none;
+}
+
+#skype{
+    top: -20vh;  /*отступ сверху */
+    left: -40vh; /* отступ слева */
+}
+
+#skype h4{
+    display: inline;
+    color: #3E5293;
+}
+
+#panelKon:hover #skype{
+    top: 20vh;  /*отступ сверху */
+    left: 40vh; /* отступ слева */
+}
+#vk{
+    top:140vh;
+    left: 170vh;
+}
+
+#panelKon:hover #vk{
+    top:40vh;
+    left: 70vh;
+}
+
+#tel{
+    top: -160vh;
+    left: -100vh;
+}
+
+#panelKon:hover #tel{
+    top: 60vh;
+    left: 100vh;
+}
+#panelWeb:hover, #panelVer:hover, #panelKon:hover {
+    background: rgb(51, 51, 51); /* при наведении выдвигается на скрытые 200px + 20px отступы */
+}
+#panelWeb:hover #hidden_panel , #panelVer:hover #hidden_panel  , #panelKon:hover #hidden_panel {
+    right: 0; /* отступ слева */
+}
+
+.logo{
+    
+    font-family: broken;
+    font-size: 38px;
+    background-color: rgba(0, 0, 0, 0.83);
+    color: rgba(255, 253, 253, 0);
+    text-shadow: 0px 2px 0px rgba(255, 254, 254, 0.9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+
+#panelWeb:hover #text, #panelVer:hover #text, #panelKon:hover #text{
+    color: rgba(0, 128, 0, 0);
+    
