@@ -96,14 +96,95 @@ li{
     height: 100%; /* высота блока */
     padding: 10px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
+   /* background-color: #565656;*/
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    }
 
+.okna{
+    top:110%;
+    left: 1155%;
+    background-image: url(img/okna.jpg);
+    position: fixed; /* положение */
+    width: 480px; /* ширина блока */
+    height: 300px; /* высота блока */
+    background-size: cover;
+    background-position: -8px 0;
+}
+
+.avto{
+     top:-10%;
+    left: 639%;
+    background-image: url(img/avto.jpg);
+    position: fixed; /* положение */
+    width: 450px; /* ширина блока */
+    height: 300px; /* высота блока */
+    background-size: cover;
+    background-position: -160px 0;
+
+}
+ 
+.film{
+    top:313%;
+    left: 155%;
+    background-image: url(img/1920px_desktop_pro100film.jpg);
+    position: fixed; /* положение */
+    width: 548px; /* ширина блока */
+    height: 235px; /* высота блока */
+    background-size: cover;
+    
+}
+
+.mob{
+     top:314%;
+    left: -170%;
+    background-image: url(img/tel.jpg);
+    position: fixed; /* положение */ 
+    width: 484px; /* ширина блока */
+    height: 200px; /* высота блока */
+    background-size: cover;
+    
+}
+#panelWeb:hover .okna{
+    top:10px;
+    left: 155px;
+
+}
+
+#panelWeb:hover .avto{
+
+    top:10px;
+    left: 639px;
+
+}
+
+#panelWeb:hover .film{
+
+    top:313px;
+    left: 155px;
+
+}
+
+#panelWeb:hover .mob{
+
+    top:314px;
+    left: 707px;
+
+}
+#panelVer:hover .film{
+
+    top:313px;
+    left: 155px;
+}
+#skype, #vk, #tel, .okna, .avto, .film, .mob{
     -webkit-transition-duration: 0.9s; /* анимационное выдвижение для всех браузеров*/
     -moz-transition-duration: 0.9s;
-    -o-transition-duration: 0.9s;
+    -o-transition-duration:0.9s;
     transition-duration: 0.9s;
-
-   
-    }
+    text-decoration: none;
+}
 
    #skype, #vk, #tel{
     font-family: fontawesome;
@@ -114,11 +195,7 @@ li{
     height: 50px; /* высота блока */
     text-align: left; /* выравнивание текста */
 
-    -webkit-transition-duration: 0.9s; /* анимационное выдвижение для всех браузеров*/
-    -moz-transition-duration: 0.9s;
-    -o-transition-duration: 0.9s;
-    transition-duration: 0.9s;
-    text-decoration: none;
+   
 }
 
 #skype{
@@ -128,7 +205,12 @@ li{
 
 #skype h4{
     display: inline;
-    color: #3E5293;
+    color: #3ab5dc;
+}
+
+#vk a h4{
+    display: inline;
+    color: #507299;
 }
 
 #panelKon:hover #skype{
@@ -158,7 +240,7 @@ li{
     background: rgb(51, 51, 51); /* при наведении выдвигается на скрытые 200px + 20px отступы */
 }
 #panelWeb:hover #hidden_panel , #panelVer:hover #hidden_panel  , #panelKon:hover #hidden_panel {
-    right: 0; /* отступ слева */
+    right: 2%; /* отступ слева */
 }
 
 .logo{
