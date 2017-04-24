@@ -19,7 +19,7 @@ body{
     padding: 0;
     margin: 0;   
     background-image: url(img/bg.png);
-    
+    background-position: -190px -45px;
 }
 a{
     text-decoration: none;
