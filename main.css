@@ -1,7 +1,18 @@
 @font-face {
-  font-family: fontawesome;
-  src: url (fonts/fontawesome-webfont_0.ttf);
+  font-family: 'FontAwesome';
+  src: url('pro100film/fonts/FontAwesome/FontAwesome.woff') format('woff'),
+       url('pro100film/fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
+       url('pro100film/fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
+       src: url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.eot');
+  src: url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
+       url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+
+
 
 @font-face {
   font-family: bodo;
