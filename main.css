@@ -259,3 +259,11 @@ li{
 #panelWeb:hover #text, #panelVer:hover #text, #panelKon:hover #text{
     color: rgba(0, 128, 0, 0);
     
+}
+#text{
+    margin-top: -490px;
+    margin-left: 35%;
+    text-align: center;
+    width: 530px;
+    height: 100px;
+}
