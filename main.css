@@ -99,10 +99,7 @@ li{
     padding: 10px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
    /* background-color: #565656;*/
-    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+  
     }
 
 .okna {
