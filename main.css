@@ -22,6 +22,8 @@ body{
     background-position: -190px -45px;
 }
 a{
+   display: block;
+   height: 100%;
     text-decoration: none;
     color: #fff;
 }
@@ -103,7 +105,7 @@ li{
     transition-duration: 0.3s;
     }
 
-.okna{
+.okna {
     top:110%;
     left: 1155%;
     background-image: url(img/okna.jpg);
@@ -113,6 +115,7 @@ li{
     background-size: cover;
     background-position: -8px 0;
 }
+
 
 .avto{
      top:-10%;
