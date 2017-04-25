@@ -166,9 +166,11 @@ body{
 	padding-left: 41%;
 }
 
+.exLine{
+	margin-top: 60px;
+}
 
-
-.foto{
+.nikDav{
 	width: 200px;
 	height: 200px;
 	background-image: url(../img/Experts/NickDavidoGagarin.jpg);
@@ -182,6 +184,380 @@ body{
 	background-size: cover;
 	border-radius: 100px;
 }
-.nikDav{
-	background-image: url(../img/Experts/NickDavidoGagarin.jpg);
+
+.MikhailTaver{
+	background-image: url(../img/Experts/MikhailTaverGagarin.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+.Treneva{
+	background-image: url(../img/Experts/Anna-MariaTrenevaFacebook.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+.Mikhayluk{
+	background-image: url(../img/Experts/AndreyMikhaylukSDVentures.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+
+.Cherkashin{
+	background-image: url(../img/Experts/PavelCherkashinGVACapital.png);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+
+.Chelly{
+	background-image: url(../img/Experts/YanChellyEbay.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+
+.Vasiliev{
+	background-image: url(../img/Experts/AlexanderVasilievApps4all.png);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+
+.Belotserkovskiy{
+	background-image: url(../img/Experts/AlexandrBelotserkovskiyMicrosoft.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	background-position: -75px 0;
+}
+
+.Goncharov{
+	background-image: url(../img/Experts/MaximGoncharovCherryLabs.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Andreenko{
+	background-image: url(../img/Experts/ArtemAndreenkoprisma.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.ASemyanov{
+	background-image: url(../img/Experts/ArtyomSemyanov.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Semianov{
+	background-image: url(../img/Experts/KonstantinSemianovPrisma.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Chakhvadze{
+	background-image: url(../img/Experts/ArturChakhvadzeprisma.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Borisov{
+	background-image: url(../img/Experts/SergeyBorisovApps4all.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Sarukhanov{
+	background-image: url(../img/Experts/WaganSarukhanovFlexlab.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.natekin{
+	background-image: url(../img/Experts/AlexNatekinODS.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Romov{
+	background-image: url(../img/Experts/PeterRomov2.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Ermakov{
+	background-image: url(../img/Experts/PetrErmakovMail.png);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Degtyarev{
+	background-image: url(../img/Experts/RomanDegtyarev.png);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+	
+}
+
+.Kravchenko{
+	background-image: url(../img/Experts/ArseniyKravchenko.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Notchenko{
+	background-image: url(../img/Experts/AlexanderNotchenko.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Neznanova{
+	background-image: url(../img/Experts/JuliaNeznanova.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	
+}
+
+.Veretennikov{
+	background-image: url(../img/Experts/StanislavVeretennikov.jpg);
+	width: 200px;
+	height: 200px;
+	
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+	background-position:-50 0;
+	
+}
+
+.name{
+	font-style: 22px;
+	padding-left: 20%;
+}
+
+.expert .container .row .col-md-3{
+	padding-left: 10px;
 }
