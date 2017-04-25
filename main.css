@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('pro100film/fonts/FontAwesome/FontAwesome.woff') format('woff'),
-       url('pro100film/fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
-       url('pro100film/fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
-       src: url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.eot');
-  src: url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
-       url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/FontAwesome/FontAwesome.woff') format('woff'),
+       url('fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
+       url('fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
+       src: url('fonts/FontAwesome/fontawesome-webfont_0.eot');
+  src: url('fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
+       url('fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,12 +16,12 @@
 
 @font-face {
   font-family: bodo;
-  src: url('pro100film/fonts/BodoniC/BodoniC-BookCond.eot');
-  src: url('pro100film/fonts/BodoniC/BodoniC-BookCond.woff2') format('woff2'),
-       url('pro100film/fonts/BodoniC/BodoniC-BookCond.woff') format('woff'),
-       url('pro100film/fonts/BodoniC/BodoniC-BookCond.ttf') format('truetype'),
-       url('pro100film/fonts/BodoniC/BodoniC-BookCond.svg#BodoniC-BookCond') format('svg'),
-       url('pro100film/fonts/BodoniC/BodoniC-BookCond.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/BodoniC/BodoniC-BookCond.eot');
+  src: url('fonts/BodoniC/BodoniC-BookCond.woff2') format('woff2'),
+       url('fonts/BodoniC/BodoniC-BookCond.woff') format('woff'),
+       url('fonts/BodoniC/BodoniC-BookCond.ttf') format('truetype'),
+       url('fonts/BodoniC/BodoniC-BookCond.svg#BodoniC-BookCond') format('svg'),
+       url('fonts/BodoniC/BodoniC-BookCond.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 
@@ -29,12 +29,12 @@
 
 @font-face {
   font-family: broken;
-  src: url('pro100film/fonts/BROKEN15/Broken15.eot');
-  src: url('pro100film/fonts/BROKEN15/Broken15.woff2') format('woff2'),
-       url('pro100film/fonts/BROKEN15/Broken15.woff') format('woff'),
-       url('pro100film/fonts/BROKEN15/Broken15.ttf') format('truetype'),
-       url('pro100film/fonts/BROKEN15/Broken15.svg#Broken15') format('svg'),
-       url('pro100film/fonts/BROKEN15/Broken15.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/BROKEN15/Broken15.eot');
+  src: url('fonts/BROKEN15/Broken15.woff2') format('woff2'),
+       url('fonts/BROKEN15/Broken15.woff') format('woff'),
+       url('fonts/BROKEN15/Broken15.ttf') format('truetype'),
+       url('fonts/BROKEN15/Broken15.svg#Broken15') format('svg'),
+       url('fonts/BROKEN15/Broken15.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -166,6 +166,17 @@ li{
      top:314%;
     left: -170%;
     background-image: url(img/tel.jpg);
+    position: fixed; /* положение */ 
+    width: 484px; /* ширина блока */
+    height: 200px; /* высота блока */
+    background-size: cover;
+    
+}
+
+.truM{
+     top:517px;
+    left: 707px;
+    background-image: url(img/header_1920px_desktop.jpg);
     position: fixed; /* положение */ 
     width: 484px; /* ширина блока */
     height: 200px; /* высота блока */
