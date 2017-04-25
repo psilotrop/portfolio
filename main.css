@@ -16,13 +16,27 @@
 
 @font-face {
   font-family: bodo;
-  src: url(pro100film/fonts/BodoniC-BookCond.otf);
+  src: url('pro100film/fonts/BodoniC/BodoniC-BookCond.eot');
+  src: url('pro100film/fonts/BodoniC/BodoniC-BookCond.woff2') format('woff2'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.woff') format('woff'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.ttf') format('truetype'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.svg#BodoniC-BookCond') format('svg'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 @font-face {
   font-family: broken;
-  src: url(pro100film/fonts/BROKEN15.TTF);
+  src: url('pro100film/fonts/BROKEN15/Broken15.eot');
+  src: url('pro100film/fonts/BROKEN15/Broken15.woff2') format('woff2'),
+       url('pro100film/fonts/BROKEN15/Broken15.woff') format('woff'),
+       url('pro100film/fonts/BROKEN15/Broken15.ttf') format('truetype'),
+       url('pro100film/fonts/BROKEN15/Broken15.svg#Broken15') format('svg'),
+       url('pro100film/fonts/BROKEN15/Broken15.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body{
