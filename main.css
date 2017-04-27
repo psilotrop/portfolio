@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('fonts/FontAwesome/FontAwesome.woff') format('woff'),
-       url('fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
-       url('fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
-       src: url('fonts/FontAwesome/fontawesome-webfont_0.eot');
-  src: url('fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
-       url('fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
+  src: url('pro100film/fonts/FontAwesome/FontAwesome.woff') format('woff'),
+       url('pro100film/fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
+       url('pro100film/fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
+       src: url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.eot');
+  src: url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
+       url('pro100film/fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,12 +16,12 @@
 
 @font-face {
   font-family: bodo;
-  src: url('fonts/BodoniC/BodoniC-BookCond.eot');
-  src: url('fonts/BodoniC/BodoniC-BookCond.woff2') format('woff2'),
-       url('fonts/BodoniC/BodoniC-BookCond.woff') format('woff'),
-       url('fonts/BodoniC/BodoniC-BookCond.ttf') format('truetype'),
-       url('fonts/BodoniC/BodoniC-BookCond.svg#BodoniC-BookCond') format('svg'),
-       url('fonts/BodoniC/BodoniC-BookCond.eot?#iefix') format('embedded-opentype');
+  src: url('pro100film/fonts/BodoniC/BodoniC-BookCond.eot');
+  src: url('pro100film/fonts/BodoniC/BodoniC-BookCond.woff2') format('woff2'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.woff') format('woff'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.ttf') format('truetype'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.svg#BodoniC-BookCond') format('svg'),
+       url('pro100film/fonts/BodoniC/BodoniC-BookCond.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 
@@ -29,12 +29,12 @@
 
 @font-face {
   font-family: broken;
-  src: url('fonts/BROKEN15/Broken15.eot');
-  src: url('fonts/BROKEN15/Broken15.woff2') format('woff2'),
-       url('fonts/BROKEN15/Broken15.woff') format('woff'),
-       url('fonts/BROKEN15/Broken15.ttf') format('truetype'),
-       url('fonts/BROKEN15/Broken15.svg#Broken15') format('svg'),
-       url('fonts/BROKEN15/Broken15.eot?#iefix') format('embedded-opentype');
+  src: url('pro100film/fonts/BROKEN15/Broken15.eot');
+  src: url('pro100film/fonts/BROKEN15/Broken15.woff2') format('woff2'),
+       url('pro100film/fonts/BROKEN15/Broken15.woff') format('woff'),
+       url('pro100film/fonts/BROKEN15/Broken15.ttf') format('truetype'),
+       url('pro100film/fonts/BROKEN15/Broken15.svg#Broken15') format('svg'),
+       url('pro100film/fonts/BROKEN15/Broken15.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -183,6 +183,24 @@ li{
     background-size: cover;
     
 }
+
+.spacehack { 
+    top:110%;
+    left: 1155%;
+    background-image: url(img/spacehack.jpg);
+    position: fixed; /* положение */
+    width: 480px; /* ширина блока */
+    height: 300px; /* высота блока */
+    background-size: cover;
+    background-position: -60px 0;
+}
+
+#panelVer:hover .spacehack{
+    top:10px;
+    left: 155px;
+
+}
+
 #panelWeb:hover .okna{
     top:10px;
     left: 155px;
@@ -196,7 +214,7 @@ li{
 
 }
 
-#panelWeb:hover .film{
+#panelWeb:hover .film, #panelVer:hover .film{
 
     top:313px;
     left: 155px;
@@ -209,12 +227,8 @@ li{
     left: 707px;
 
 }
-#panelVer:hover .film{
 
-    top:313px;
-    left: 155px;
-}
-#skype, #vk, #tel, .okna, .avto, .film, .mob{
+#skype, #vk, #tel, .okna, .avto, .film, .mob, .spacehack{
     -webkit-transition-duration: 0.9s; /* анимационное выдвижение для всех браузеров*/
     -moz-transition-duration: 0.9s;
     -o-transition-duration:0.9s;

@@ -1,18 +1,18 @@
 @font-face {
   font-family: fontawesome;
-  src: url('fonts/FontAwesome/FontAwesome.woff') format('woff'),
-       url('fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
-       url('fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
-       src: url('fonts/FontAwesome/fontawesome-webfont_0.eot');
-  src: url('fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
-       url('fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/FontAwesome/FontAwesome.woff') format('woff'),
+       url('../fonts/FontAwesome/FontAwesome.ttf') format('truetype'),
+       url('../fonts/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
+       src: url('../fonts/FontAwesome/fontawesome-webfont_0.eot');
+  src: url('../fonts/FontAwesome/fontawesome-webfont_0.woff2') format('woff2'),
+       url('../fonts/FontAwesome/fontawesome-webfont_0.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
 	font-family: adler;
-	src: url (fonts/adler.ttf);
+	src: url('../fonts/adler.ttf');
 }
 .socseti,.telek, .filmHov, .socsetiF {
 	font-family: fontawesome;

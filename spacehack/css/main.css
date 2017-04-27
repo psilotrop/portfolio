@@ -1,0 +1,393 @@
+
+
+
+
+
+.partners{
+	margin-top: 50px;
+}
+.ebay,.sdVentures,.facebook,.gvaCapital,.ods,.apps4all{
+	margin: 0 auto;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.ebay{
+	margin: 0 auto;
+	background-image: url(../img/ebay.png);
+	width: 150px;
+    height: 60px;
+	
+}
+
+.sdVentures{
+	background-image: url(../img/Logo-SDV.PNG);
+	width: 150px;
+    height: 60px;
+	
+}
+.facebook{
+	background-image: url(../img/facebook-logo-preview.png);
+	width: 150px;
+    height: 55px;
+	
+	
+}
+.gvaCapital{
+	background-image: url(../img/GVA-logo-1.png);
+	width: 99px;
+    height: 65px;
+  
+	
+}
+.ods{
+	background-image: url(../img/ods-front.png);
+	width: 105px;
+    height: 60px;
+    
+	
+}
+
+.apps4all{
+	background-image: url(../img/Apps4all.jpg);
+	width: 160px;
+    height: 60px;
+	
+}
+
+.schedule {
+	background-color: #f1f1f2;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 80px;
+	position: relative;
+}
+.schedule h3 {
+	font-size: 38px;
+	text-align: center;
+	padding: 60px;
+}
+
+.lineK{
+	
+	margin:0 auto;
+	
+	width: 50px;
+	height: 21px;
+	background-image: url(../img/Rectangle4.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.ast{
+	margin-top: -250px;
+	margin-left: 55px;
+	width: 170px;
+	height: 150px;
+	background-image: url(../img/Layer13.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	float: left;
+}
+.sput{
+	position: absolute;
+	right: 55px;
+	margin-top: -250px;
+	width: 170px;
+	height: 166px;
+	background-image: url(../img/9d0a4909beecddf6382bee9d87_s.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.kosm{
+	position: absolute;
+	right: 55px;
+	bottom: -85px;
+	width: 251px;
+	height: 300px;
+	background-image: url(../img/Layer14.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.line {
+	
+	
+	width: 100%;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-image: url(../img/Polygon1.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.dateX{
+
+	padding-top: 60px;
+	text-align: center;
+	color: #383e54;
+	font-family: Ubuntu,sans-serif;
+	}	
+
+.dateX h2{
+	padding: 10px 0;
+
+}	
+
+.schedule li{
+	list-style: none;
+	padding-top: 30px;
+	color: #383e54;
+	font-family: Ubuntu,sans-serif;
+}
+
+#clock{
+	
+	float: left;
+	padding: 2px;
+	background-color: #cccdd2;
+}	
+.expert{
+	padding:60px;
+	background-color: #fbfbfb;
+}
+.expert h3{
+	padding: 60px;
+	text-align: center;
+	font-size: 32px;
+
+}
+
+.exLine{
+	margin: 65px auto;
+}
+
+.nikDav{
+	
+	background-image: url(../img/Experts/NickDavidoGagarin.jpg);
+
+	}
+
+.MikhailTaver{
+	background-image: url(../img/Experts/MikhailTaverGagarin.jpg);
+	
+}
+.Treneva{
+	background-image: url(../img/Experts/Anna-MariaTrenevaFacebook.jpg);
+	
+}
+.Mikhayluk{
+	background-image: url(../img/Experts/AndreyMikhaylukSDVentures.jpg);
+	}
+
+.Cherkashin{
+	background-image: url(../img/Experts/PavelCherkashinGVACapital.png);
+	
+}
+
+.Chelly{
+	background-image: url(../img/Experts/YanChellyEbay.jpg);
+	
+}
+
+.Vasiliev{
+	background-image: url(../img/Experts/AlexanderVasilievApps4all.png);
+	
+}
+
+.Belotserkovskiy{
+	background-image: url(../img/Experts/AlexandrBelotserkovskiyMicrosoft.jpg);
+	
+	background-position: -75px 0;
+}
+
+.Goncharov{
+	background-image: url(../img/Experts/MaximGoncharovCherryLabs.jpg);
+
+	
+}
+
+.Andreenko{
+	background-image: url(../img/Experts/ArtemAndreenkoprisma.jpg);
+	
+	
+}
+
+.ASemyanov{
+	background-image: url(../img/Experts/ArtyomSemyanov.jpg);
+	
+	
+}
+
+.Semianov{
+	background-image: url(../img/Experts/KonstantinSemianovPrisma.jpg);
+	
+	
+}
+
+.Chakhvadze{
+	background-image: url(../img/Experts/ArturChakhvadzeprisma.jpg);
+	
+	
+}
+
+.Borisov{
+	background-image: url(../img/Experts/SergeyBorisovApps4all.jpg);
+	
+	
+}
+
+.Sarukhanov{
+	background-image: url(../img/Experts/WaganSarukhanovFlexlab.jpg);
+
+	
+}
+
+.natekin{
+	background-image: url(../img/Experts/AlexNatekinODS.jpg);
+	
+}
+
+.Romov{
+	background-image: url(../img/Experts/PeterRomov2.jpg);
+	
+	
+}
+
+.Ermakov{
+	background-image: url(../img/Experts/PetrErmakovMail.png);
+	
+	
+}
+
+.Degtyarev{
+	background-image: url(../img/Experts/RomanDegtyarev.png);
+	
+	
+	
+}
+
+.Kravchenko{
+	background-image: url(../img/Experts/ArseniyKravchenko.jpg);
+	
+	
+}
+
+.Notchenko{
+	background-image: url(../img/Experts/AlexanderNotchenko.jpg);
+	
+	
+}
+
+.Neznanova{
+	background-image: url(../img/Experts/JuliaNeznanova.jpg);
+	
+	
+}
+
+.Veretennikov{
+	background-image: url(../img/Experts/StanislavVeretennikov.jpg);
+	
+}
+
+.name{
+	font-style: 22px;
+	text-align: center;
+	font-weight: bold;
+	color: #383e54;
+	font-family: Ubuntu,sans-serif;
+	
+}
+.Expertise{
+	font-style: 22px;
+	text-align: center;
+	color: #383e54;
+	font-family: Ubuntu,sans-serif;
+}
+
+.Veretennikov,.Neznanova,.Notchenko,.Kravchenko,.Degtyarev,.Ermakov,.Romov,.natekin,
+.Sarukhanov,.Borisov,.Chakhvadze,.Semianov,.ASemyanov,.Andreenko,.Goncharov,.Belotserkovskiy,
+.Vasiliev,.Chelly,.Cherkashin,.Mikhayluk,.Treneva,.MikhailTaver,.nikDav{
+
+	
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+
+	-webkit-filter: grayscale(1); /* Webkit браузеры */  
+        filter: gray; /* для IE6-9 */  
+        filter: grayscale(1); /* W3C */
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 100px;
+}
+
+.partners h2,.partners .lineK{
+	display: none;
+}
+@media only screen and (max-width: 1200px) {
+
+	.line{
+		
+		height: 14px;
+	}
+	
+}
+
+@media only screen and (max-width: 1050px){
+
+	.expert{
+		padding: 0;
+
+	}
+}
+
+@media only screen and (max-width: 991px)  { 
+
+	.partners{
+		margin-top: 0;
+		
+	}
+
+	.partners h2,.partners .lineK{
+		display: block;
+	    margin: 35px auto;
+    	margin-top: -28px;
+	}
+	.ebay,.sdVentures,.facebook,.gvaCapital{
+	
+	margin-bottom: 40px;
+}
+
+	.ods,.apps4all{
+		margin-bottom: 92px;
+
+	}
+	.line{
+		
+		height: 35px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.line{
+		height: 31px;
+	}
+}
+
+
+@media only screen and (max-width: 690px){
+
+	.line{
+		height: 28px;
+	}
+
+}
