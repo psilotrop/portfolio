@@ -44,7 +44,10 @@ body{
     padding: 0;
     margin: 0;   
     background-image: url(img/bg.png);
-    background-position: -190px -45px;
+    
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 a{
    display: block;
@@ -174,12 +177,12 @@ li{
 }
 
 .truM{
-     top:517px;
-    left: 707px;
-    background-image: url(img/header_1920px_desktop.jpg);
+     top:314%;
+    left: 707%;
+    background-image: url(img/trum.jpg);
     position: fixed; /* положение */ 
-    width: 484px; /* ширина блока */
-    height: 200px; /* высота блока */
+    width: 534px; /* ширина блока */
+    height: 100px; /* высота блока */
     background-size: cover;
     
 }
@@ -223,12 +226,18 @@ li{
 
 #panelWeb:hover .mob{
 
-    top:314px;
+    top:418px;
     left: 707px;
 
 }
 
-#skype, #vk, #tel, .okna, .avto, .film, .mob, .spacehack{
+#panelWeb:hover .truM{
+
+    top:314px;
+    left: 707px;
+
+}
+#skype, #vk, #tel, .okna, .avto, .film, .mob, .spacehack,.truM{
     -webkit-transition-duration: 0.9s; /* анимационное выдвижение для всех браузеров*/
     -moz-transition-duration: 0.9s;
     -o-transition-duration:0.9s;
@@ -287,7 +296,7 @@ li{
     left: 100vh;
 }
 #panelWeb:hover, #panelVer:hover, #panelKon:hover {
-    background: rgb(51, 51, 51); /* при наведении выдвигается на скрытые 200px + 20px отступы */
+    background: rgb(51, 51, 51); 
 }
 #panelWeb:hover #hidden_panel , #panelVer:hover #hidden_panel  , #panelKon:hover #hidden_panel {
     right: 2%; /* отступ слева */
