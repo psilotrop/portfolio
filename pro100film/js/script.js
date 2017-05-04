@@ -1,3 +1,4 @@
+      //Функции портфолио//
 
 		//Вызывает функцию при наведении
 	$('#panelWeb').mouseenter(
@@ -32,3 +33,22 @@
 	  function showText(){ 
               $('#text').show(333);  
                }
+
+               //Функции фильма//
+
+
+   $(document).ready(function(){//при загрузке страници
+   		var touch = $('#touch-menu');// cоздаются переменные из класов
+   		var menu = $('nav');
+
+   		$(touch).on('click', function(e){//при клике на touch
+   			e.preventDefault();//открывание и скрывание менюшки
+   			menu.slideToggle();
+   		});
+   		$(window).resize(function(){
+   			var wid = $(window).width();//завписывает ширину экрана в переменную
+   			if (wid > 760 && menu.is(':hidden')){ //проверяет ширину экрана
+   				menu.removeAttr('style');
+   			}
+   		});
+   });
